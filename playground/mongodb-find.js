@@ -8,7 +8,7 @@ MongoClient.connect('mongodb://localhost:27017/TodoApp', (err, db)=>{
   }
 
 
-const jjbPratiquants = [];
+db.collection('users').insertOne({name: 'james', sport: 'jjb'});
 
 
 
